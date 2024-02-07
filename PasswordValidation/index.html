@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css'
+        integrity='sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=='
+        crossorigin='anonymous' />
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-box">
+            <input type="password" placeholder="Create Password" maxlength="40">
+            <i class="fa-solid fa-eye-slash" style="color: #9b9b9b;"></i>
+        </div>
+        <div class="password-content">
+            <p>Password should be</p>
+            <ul class="list">
+                <li>
+                    <i class="fa-solid fa-circle" style="color: #9b9b9b;"></i>
+                    <span>At least 8 characters long</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle" style="color: #9b9b9b;"></i>
+                    <span>At least 1 number (0...9)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle" style="color: #9b9b9b;"></i>
+                    <span>At least 1 lowercase letter (a...z)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle" style="color: #9b9b9b;"></i>
+                    <span>At least 1 special symbol (!...$)</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle" style="color: #9b9b9b;"></i>
+                    <span>At least 1 uppercase letter (A...Z)</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
